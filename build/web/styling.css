@@ -1,0 +1,589 @@
+/* =========================================nav-bar================================================= */
+
+.navbar-custom {
+    background-image: url("image/formbackgroundimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    background-color: rgb(6, 179, 247);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 1px;
+    padding: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right:20px ;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
+    color: #fff;
+    color:rgb(45, 183, 238);
+    background-color: #fff;
+
+}
+#icon-btn{
+    border:solid #fff 2px;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#nav-icon-img{
+    color:blanchedalmond;
+    backface-visibility:visible;
+    border-radius: 50%;
+    margin-top: -7px;
+    margin-left: -10px;
+    height: 40px;
+    width: 47px;
+}
+
+.nav-icon{
+    padding:2px;
+    height: fit-content;
+}
+
+#nav-logo-img{
+    height: 100px;
+    width: 150px;
+    border-radius:5px; 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#nav-user-img{
+    margin-left: 5px;
+    height: 50px;
+    width: 70px;
+    border-radius:50%; 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.nav-icon-logo{
+    height: 25px;
+    margin-right: 2px;
+}
+
+
+#nav-user{
+    margin-left: 10px;
+    height: 100px;
+    width: fit-content;
+}
+
+.user-img{
+    display: flex;
+    height:70px;
+    width: 70px;  
+}
+#nav-user-img{
+    
+    margin-left: -100px;
+    height: 70px;
+    width: 70px;
+    border-radius:50%; 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.user-name{
+    width:fit-content;
+    margin: -15px;
+    margin-left: 10px;
+    color:#fff;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    justify-content: center;
+    padding: 2px;
+
+}
+
+#navbarNav{
+    margin-top: 10px;
+}
+
+.my-nav-btn{    
+    float: right;
+}
+
+.nav-link{
+    width: 100%;
+    border: solid wheat 1px;
+}
+.nav-item{
+    margin: 3px;
+}
+
+/* ======================================================registration-form started==================================================== */
+
+.registration-form-container {
+    pointer-events: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("image/formbackgroundimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 320px;
+    width: 320px;
+
+
+}
+
+.close-button {
+    color: rgb(45, 183, 238);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border:solid #fff 1px;
+    padding:0px 10px 0px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.close-button:hover{
+    background-color: #fff;
+    color: rgb(45, 183, 238);
+    font-weight: bold;
+}
+.registration-form-heading{
+    margin-top: 15px;
+    color:#fff;
+    margin-bottom: 15px;
+}
+
+
+.registration-inputs-fields{
+    border-radius: 5px;
+    color:black;
+    width: 100%;
+    margin-bottom:10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.registration-form-submit-btn{
+    font-weight: bold;
+    background-color: rgb(45, 183, 238);
+    border:solid #fff 1px;
+    color:#fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.registration-form-submit-btn:hover{
+    color: rgb(45, 183, 238);
+    background-color: #fff;
+}
+
+/* ===========================swal styling=============== */
+.custom-confirm-button-class {
+    background-color: red;
+    color:red; /* Optionally, change the button text color to white */
+}
+/* =========================================================registration form ended====================================== */
+
+
+/* =========================================================login form started====================================== */
+
+
+
+.login-form-container {
+    pointer-events: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("image/formbackgroundimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 320px;
+    width: 320px;
+}
+
+.login-form-heading{
+    margin-top: 25px;
+    color:#fff;
+    margin-bottom: 15px;
+    padding-left: 55px;
+    margin-bottom: 30px;
+}
+
+.login-form-submit-btn{
+    margin-top: 20px;
+}
+/* =========================================================login form ended====================================== */
+
+/*      ============================notes inputs styling================================*/
+
+.my-fluid-container{
+    pointer-events: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("image/formbackgroundimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 80%;
+    width: 70%;
+}    
+body{
+    background-image: url("image/Enotesbodyimage.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+.myrow1{
+    height: 8%;
+}
+
+.myrow2{
+    height: 8%;
+}
+.myrow3{
+    height: 76%;
+}   
+.myrow4{
+    height: 8%;
+}
+
+.title-text{
+    width: 100%;
+}
+
+#content{
+    margin-top: 5px;   
+    height: 97%;
+    width: 100%;
+    resize: none; 
+
+}
+
+#content-close-btn-id{
+    color: red;
+    font-weight: bolder;
+    float: right;
+    background-color: #fff;
+    border-radius: 5px;
+    border:none;
+    padding:5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#content-close-btn-id:hover{
+    font-size: large;
+}
+
+#addingNotes{
+    border:none;
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(45, 183, 238);
+    color:#fff;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#addingNotes:hover{
+    color:skyblue;
+    background-color: #fff;
+}  
+#add-notes-id{
+    border:solid yellow 3px;
+    pointer-events: auto;
+}
+
+/*  ========================================show notes in card started======================*/
+
+
+.slide-content{
+
+    margin: 0 40px;
+    height: fit-content;   
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.slide-container{
+    pointer-events: auto;
+    margin-top: 15px;
+    height: fit-content;
+    padding:10px;
+    box-sizing: border-box;
+    max-width: 1120px;
+    width: 100%;
+    background-color:transparent;
+    padding:40px 0;
+    padding:100px;
+}
+
+.card{
+    box-sizing: border-box;
+    background-image: url("image/formbackgroundimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:210px ;
+    height: 320px;
+    padding:10px;
+    border-radius:30px;
+    background-color: rgb(230, 201, 201);
+    box-shadow: rgb(205, 186, 186) 0px 50px 100px -20px, rgba(78, 1, 1, 0.949) 0px 30px 60px -30px, rgb(59, 1, 1) 0px -2px 6px 0px inset;
+}
+.image-content,
+.card-content{
+    box-sizing: border-box;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+
+}
+.overlay{
+    box-sizing:border-box;
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(220, 82, 82);
+    border-radius: 25px 25px 0 0;
+}
+.overlay::before,
+.overlay::after{
+    box-sizing:border-box;
+    content: '';
+    position: absolute;
+    height: 40px;
+    width:40xp;
+    background-color:rgb(82, 220, 133);
+}
+
+
+.name{
+    font-size: medium;
+}
+.c_name{
+    margin-top: 2px;
+    font-size: medium;
+}
+
+.description{
+    padding: 1px;
+    margin-top: 7px;
+    font-size:medium;
+    color:rgb(0, 0, 0);
+    text-align: left;
+}
+
+.div_btn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+.div_btn1{
+
+    float: left;
+    background-color: rgb(8, 174, 35);
+    margin-right:60px;
+}
+
+.div_btn1:hover{
+    color: rgb(8, 174, 35);
+    background-color: #fff;
+}
+.div-btn2{
+    float: right;
+    background-color: rgb(184, 5, 5);   
+}
+
+.div-btn3{
+    margin-left: 60px;
+}
+.div-btn2:hover{
+    color:rgb(184, 5, 5);
+    background-color: #fff;
+}
+
+.button{
+    font-weight: bold;  
+    margin-top: .4rem;
+    border: none;
+    font-size: 16px;
+    color:white;
+
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.swiper-pagination.bullet{
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+.swiper-navBtn{
+    color:#fff;
+    font-weight: bolder;
+}
+.swiper-navBtn:hover{
+    color:#fff;
+}
+
+
+.swiper-my-pagination{
+
+    width:100px;
+    height: 8px;
+}
+.scrollable-container {
+    height: 200px;
+    overflow: auto;
+    padding:5px;
+}
+
+/*==========================================showing notes in card ended=========================*/
+
+.title-input{
+    background-color: transparent;
+    border:solid rgb(78, 195, 197) 2px;
+    width: 100%;
+
+}
+.subject-input{
+    background-color: transparent;
+    border:solid rgb(78, 195, 197) 2px;
+    width: 100%;
+}
+
+.content-input{
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    border:solid rgb(78, 195, 197) 2px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*==============================================profile=====================================*/
+
+.login-form-container2{
+            pointer-events: auto;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url("image/formbackgroundimg.jpg");
+            background-color: skyblue;           
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 20px;
+            border-radius: 5px;
+            z-index: 9999;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            height: 300px;
+            width: 300px;
+        }
+
+        .login-form-heading2{
+            margin-top: 25px;
+            color: #fff;
+            margin-bottom: 15px;
+            padding-left: 100px;
+            font-weight: bolder;
+        }
+
+        .close-button2{
+            
+            float: right;
+            height: 40px;
+            width: 40px;
+            border-radius: 5px;
+            background-color: #fff;
+            font-size: larger;
+            font-weight: bolder;
+            border:solid 1px #fff;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        }
+        .close-button2:hover{
+            background-color: rgb(58, 182, 231);
+            color: #fff;
+        }/*
+*/        .user-img{
+            height: 90px;
+            width: 90px;
+           
+            border-radius: 50%;
+            margin-left: 100px;
+        }/*
+*/        #user-img-id{
+            height: 100%;
+            border-radius: 50%;
+        }/*
+*/        #userid-notes{
+            margin-top: 20px;
+           height: 70px;
+           display: block;
+
+        }
+       #user-id2{
+            margin-top: 0px;
+            height: 50%;
+            color: #fff;
+            margin-bottom: 3px;
+
+        }
+        #notes-id2{
+            margin-top: 0px;
+            height: 50%;
+            color:#fff;
+            margin-bottom: 3px;
+        }
+
+/* ========================================================footer ================================== */
